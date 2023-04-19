@@ -14,3 +14,11 @@
 .link-primary{
     color: var(--primary) !important;
 }
+
+.rounded{
+    border-radius: 50px !important;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    -ms-border-radius: 50px !important;
+    -o-border-radius: 50px !important;
+}
