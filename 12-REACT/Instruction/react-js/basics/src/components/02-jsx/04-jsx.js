@@ -12,8 +12,6 @@ const Jsx4 = () => {
 
     const check = true;
 
-    console.log(nameInfo);
-
     return (
         <div>
             <ul>
