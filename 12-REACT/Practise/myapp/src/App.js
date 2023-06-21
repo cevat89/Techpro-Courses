@@ -1,5 +1,10 @@
 import React from 'react'
-import Shop from './components/c10/Shop'
+/* import Sairler from './components/c12/Sairler' */
+/* import Akis from './components/c13/Akis' */
+import Paragraph from './components/c14/Paragraph'
+import Countries from './components/c15/Countries'
+/* import RandomImage from './components/c11/RandomImage' */
+/* import Shop from './components/c10/Shop' */
 /* import Kisiler from './components/c8/Kisiler'
 import Cards from './components/c9/Cards'
 import StudentCard from './components/c9/StudentCard' */
@@ -24,9 +29,16 @@ const App = () => {
 <Ulkeler/>
 <Kisiler/>
 <StudentCard/>
-
-*/}
 <Shop/>
+<RandomImage/>
+<Sairler/>
+<Akis/>
+<Paragraph/>
+*/}
+<Countries/>
+
+
+
 
 
 

@@ -6,35 +6,35 @@ const UseEffect = () => {
     const [counter, setCounter] = useState(0);
 
 
-    useEffect(() => {
-        console.log("MOUNTING: sadece sayfam ilk render edildiginde calisir1");
+    // useEffect(() => {
+    //     console.log("MOUNTING: sadece sayfam ilk render edildiginde calisir1");
 
-        const timer = setInterval(() => {
-            console.log("timer calisti");
-        }, 1000);
+    //     const timer = setInterval(() => {
+    //         console.log("timer calisti");
+    //     }, 1000);
 
-        return () => {
-            clearInterval(timer);
-        }
-    }, []);
+    //     return () => {
+    //         clearInterval(timer);
+    //     }
+    // }, []);
 
-    useEffect(() => {
-        console.log("MOUNTING: sadece sayfam ilk render edildiginde calisir2");
-    }, [])
+    // useEffect(() => {
+    //     console.log("MOUNTING: sadece sayfam ilk render edildiginde calisir2");
+    // }, [])
 
-    useEffect(() => {
-        console.log("UPDATING: sayfam ilk renderda ve her render edildiginde calisir")
-        return () => {
-            console.log("UNMOUNTING: sayfam sadece unmount edilirken calisir");
-        }
-    });
+    // useEffect(() => {
+    //     console.log("UPDATING: sayfam ilk renderda ve her render edildiginde calisir")
+    //     return () => {
+    //         console.log("UNMOUNTING: sayfam sadece unmount edilirken calisir");
+    //     }
+    // });
 
-    useEffect(() => {
-        console.log("UPDATING: sayfam ilk render edildiginde ve message state'i degistiginde calisir");
-    }, [message, counter]);
+    // useEffect(() => {
+    //     console.log("UPDATING: sayfam ilk render edildiginde ve message state'i degistiginde calisir");
+    // }, [message, counter]);
 
 
-    console.log("useEffect'lerden once calisir");
+    // console.log("useEffect'lerden once calisir");
 
     return (
         <Container>
